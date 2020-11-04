@@ -7,7 +7,7 @@ process.env.PORT = process.env.PORT || 3000;
 //----------------------------------------
 //-              Entorno                 -
 //----------------------------------------
-process.env.NODE_DEV = process.env.NODE_DEV || 'dev'
+process.env.NODE_DEV = process.env.NODE_DEV || 'dev';
 
 //----------------------------------------
 //-              Entorno                 -
