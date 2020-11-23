@@ -9,7 +9,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
     // parse application/json
 app.use(bodyParser.json())
 
-app.use(require('./routes/usuario'));
+// configuracion global de rutas es el archivo index donde estan las rutas
+app.use(require('./routes/index'));
+
 
 
 
